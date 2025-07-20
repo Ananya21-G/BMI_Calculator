@@ -1,0 +1,61 @@
+body{
+    font-family: "Arvo" , serif;
+    background: #D6FAC3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.bmi-container{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.wt{
+    margin-bottom: 20px;
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+    color: #1B5E20;
+}
+.htt{
+    font-size: 20px;
+    color: #1B5E20;
+}
+.ht{
+    margin-bottom: 30px;
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+    color: #1B5E20;
+}
+.cal{
+    height: 50px;
+    width: 300px;
+    background-color: #1B5E20; /* Deep plum color */
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+
+.cal:hover {
+    background-color: #1B5E20; /* Slightly lighter purple on hover */
+}
+}
+#result{
+    font-weight: 800;
+}
+h1{
+    color: #1B5E20;
+}
+span{
+    font-size: 17px!important;
+}
+/*{
+    border: 1px solid red;
+}
